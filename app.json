@@ -20,6 +20,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [ "expo-image-picker", { "cameraPermission": "$(PRODUCT_NAME) needs your permission to tag the parking spot.", "microphonePermission": false }],
+      [ "expo-location", { "locationWhenInUsePermission": "$(PRODUCT_NAME) needs your permission to tag the parking spot." } ]
+    ]
+    
   }
 }
