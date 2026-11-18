@@ -7,6 +7,7 @@ export type Tag = {
     photo: CapturedPhoto;
     hasRack: boolean | null;
     hasRailing: boolean | null;
+    hasCctv: boolean | null;
     foldingBikeAllowed: boolean | null;
     markerSource: string;
     firstLogged: string; // ISO 8601
